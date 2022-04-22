@@ -1,0 +1,306 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/sith2/OneDrive/Pulpit/Studia/6 SEM/.NET/OpenWeatherMapApp-master",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "dUBc/OLDIvzW38d4Wd0Pc0n10nRvH3O+hf0s0WKQCDE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "uN5WKdLpNQI0geouGSvo+HpFwURVSHHiL/E+1zOaMTQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "MPImisgNBxVFMNMrmDQsEi1eXi39oMgKjutma1dUcOA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Irn5Lk99Cejjr2xad0QwlmcUPsGGVnb5hK4FcbFyLrw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/OpenWeatherMapApp.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenWeatherMapApp.App.html",
+          "hash": "XxyjQHhI2/qdxHF9xiZZ47uEfdDDcTblCx0EW19jBZk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/OpenWeatherMapApp.Cooridnates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenWeatherMapApp.Cooridnates.html",
+          "hash": "hjHzw6/WGxd6TY/kqHsb3hv+jc2pENrkvD6R2VVOMlc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/OpenWeatherMapApp.FavouriteCity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenWeatherMapApp.FavouriteCity.html",
+          "hash": "mMnMEO1Jv8k5k74yO9vTdbaSidpNZtRdMXEFd/whrVc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/OpenWeatherMapApp.FavouriteContext.FavouriteCitiesDbInitializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenWeatherMapApp.FavouriteContext.FavouriteCitiesDbInitializer.html",
+          "hash": "Ik+SScUZ4BMxV/924FGHL+P0b3vQhQDQ8kif20qFprI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/OpenWeatherMapApp.FavouriteContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenWeatherMapApp.FavouriteContext.html",
+          "hash": "RP0q1Nt1oaYJtuEAxIwpAUBA0QONfO3Qhu82vgH9aBg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/OpenWeatherMapApp.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenWeatherMapApp.MainWindow.html",
+          "hash": "gqpcPQEYJLX7nh3p5Vl/+dufsp9Ji7z+DWxnIKxgqWk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/OpenWeatherMapApp.Main_info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenWeatherMapApp.Main_info.html",
+          "hash": "pg3TYfcZ4+2VKWE763xW8QxL+u+H+2C7b/KWBEiNS/I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/OpenWeatherMapApp.Migrations.InitialCreate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenWeatherMapApp.Migrations.InitialCreate.html",
+          "hash": "W3YdwPGJXRpD7h3MNRWXJNaB7cb49Srm30Ut+wb7xYg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/OpenWeatherMapApp.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenWeatherMapApp.Migrations.html",
+          "hash": "w6f9pGdpMOwa51tgBFXRRkLFk0mHUzEyMZzVPT37Fc0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/OpenWeatherMapApp.Sun_Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenWeatherMapApp.Sun_Info.html",
+          "hash": "UBdCe7lswJGcY3F3RS48XJdYxnDS/rEQzj5s7lpzyGo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/OpenWeatherMapApp.Weather.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenWeatherMapApp.Weather.html",
+          "hash": "nmYYtGQ/e06MAiEUn8yOAiu2FDOs+4L27CMtK6BvkWk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/OpenWeatherMapApp.WeatherData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenWeatherMapApp.WeatherData.html",
+          "hash": "kLZCk9w3KRWUmqkS7vTD9uMU4CBNpagyDTL4/dYrBK0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/OpenWeatherMapApp.Wind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenWeatherMapApp.Wind.html",
+          "hash": "1o8Gyigatuj8l8tZZlhkJMdNp+3bKRZ2gJRLkUs6L68="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/OpenWeatherMapApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenWeatherMapApp.html",
+          "hash": "lK58GXiNLsfBjgOsfI66GLyfs9BaN7MopKcJ1JNXMAM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "4793X/cZBxrDXD2rwJuVGovDB49tzEydF14/AJrSkrE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Oa9PuD4E1hvZnCkVjUgzNBX6S00Zo5YilamTERTZo54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 4
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 14,
+          "skipped_file_count": 14
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

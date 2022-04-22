@@ -1,0 +1,61 @@
+﻿<Window x:Class="OpenWeatherMapApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OpenWeatherMapApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.031"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <TabControl>
+            <TabItem Header="Search">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="43*"/>
+                        <ColumnDefinition Width="354*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="Test_Json_Data" xml:lang="pl" HorizontalAlignment="Left" Height="242" Margin="18,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="483" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="Input_Box" HorizontalAlignment="Right" Margin="0,34,658,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+                    <Button Content="Get Weather!" HorizontalAlignment="Right" Height="24" Margin="0,59,675,0" VerticalAlignment="Top" Width="100" Click="Get_Weather" Grid.ColumnSpan="2"/>
+                    <Button Content="Add this city to favourites!" HorizontalAlignment="Left" Height="24" Margin="15,351,0,0" VerticalAlignment="Top" Width="140" Click="Add_To_Fav" Grid.ColumnSpan="2"/>
+                    <Label Content="Enter city name:" HorizontalAlignment="Right" Height="26" Margin="0,9,686,0" VerticalAlignment="Top" Width="96" Grid.ColumnSpan="2"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Favourites" Height="20" VerticalAlignment="Top">
+                <Grid VerticalAlignment="Top" Height="96">
+                    <ListBox Name="FavouriteCities" Margin="0,1,456,16">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Margin="0,2">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="100" />
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="{Binding Name}" />
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    <Button Content="Show selected weather" Click="Show_Selected_Click"  Margin="0,98,455,-22" HorizontalAlignment="Right" Width="340" />
+                    <Button Content="Delete selected city" Click="Del_Selected_Click" Margin="0,126,455,-52" HorizontalAlignment="Right" Width="340" />
+                    <TextBlock Name ="FavInfo" TextWrapping="Wrap" Margin="360,0,0,-206" HorizontalAlignment="Left" Width="434" Height="301" VerticalAlignment="Bottom"/>
+                    <Button Content="Show this city on start!" Click="Show_On_Start" Margin="0,158,455,-82" HorizontalAlignment="Right" Width="340"/>
+                    <Button Content="Update favourites" Click="Fav_Update" Margin="0,184,455,-112" HorizontalAlignment="Right" Width="340"/>
+                </Grid>
+
+            </TabItem>
+           
+
+
+        </TabControl>
+
+    </Grid>
+</Window>

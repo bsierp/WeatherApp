@@ -1,0 +1,46 @@
+{
+    "coord": {
+        "lon": 17.4674,
+        "lat": 50.8608
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 287.97,
+        "feels_like": 286.94,
+        "temp_min": 287.84,
+        "temp_max": 289.65,
+        "pressure": 994,
+        "humidity": 55,
+        "sea_level": 994,
+        "grnd_level": 977
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 10.19,
+        "deg": 233,
+        "gust": 13.93
+    },
+    "clouds": {
+        "all": 81
+    },
+    "dt": 1649331271,
+    "sys": {
+        "type": 2,
+        "id": 265391,
+        "country": "PL",
+        "sunrise": 1649304785,
+        "sunset": 1649352668
+    },
+    "timezone": 7200,
+    "id": 3102459,
+    "name": "Brzeg",
+    "cod": 200
+}
